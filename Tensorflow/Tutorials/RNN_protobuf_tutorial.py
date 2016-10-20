@@ -2,6 +2,7 @@ import tensorflow as tf
 import numpy as np
 import tempfile
 
+#http://www.wildml.com/2016/08/rnns-in-tensorflow-a-practical-guide-and-undocumented-features
 sequences = [[1, 2, 3], [4, 5, 1], [1, 2]]
 label_sequences = [[0, 1, 0], [1, 0, 0], [1, 1]]
 
